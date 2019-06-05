@@ -3,7 +3,7 @@ from pprint import pprint
 import logging
 import yaml
 
-with open("/home/rajendra/Desktop/trigger/configfile.yml","r") as configfile:
+with open("configfile.yml","r") as configfile:
     config=yaml.load(configfile)
     apikey=config["apikey"]
 
